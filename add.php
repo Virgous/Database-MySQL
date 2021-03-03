@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Add Users</title>
+	<title>Tambah Produk</title>
 </head>
  
 <body>
