@@ -1,0 +1,12 @@
+CREATE DATABASE arkademy;
+
+USE arkademy;
+
+CREATE TABLE IF NOT EXISTS `produk` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `nama_produk` varchar(50) NOT NULL,
+ `keterangan` varchar(150) NOT NULL,
+ `harga` varchar(150) NOT NULL,
+ `jumlah` int(150) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=21 ;
